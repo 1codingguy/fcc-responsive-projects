@@ -1,0 +1,61 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: $color-linear-gradient, url($background-img);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $color-white;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  text-align: center;
+  #title {
+    font-weight: 400;
+  }
+  #description {
+    font-weight: 200;
+    font-style: italic;
+    // font-size: 1.125rem;
+  }
+}
+
+form {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: $color-darkblue-alpha;
+  padding: 40px;
+  border-radius: 4px;
+
+  .form-group {
+    margin-bottom: 20px;
+    padding: 4px;
+  }
+
+  .clue {
+    font-size: 0.9rem;
+    color: $color-clue;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control {
+    font-family: inherit;
+    width: 100%;
+    padding: 6px 12px;
+  }
+
+  .submit-btn {
+    background-color: $color-green;
+    color: $color-white;
+  }
+}
