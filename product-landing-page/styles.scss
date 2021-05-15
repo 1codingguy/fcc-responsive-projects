@@ -1,4 +1,7 @@
 $color-background: #eee;
+$color-btn: #f1c40f;
+$color-icons: darkorange;
+$color-price-card: #ddd;
 
 @mixin mQ($pixel) {
   @media screen and (min-width: $pixel) {
@@ -17,11 +20,30 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-header {
+.section-center {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
+.btn {
+  display: block;
+  max-width: 150px;
+  width: 100%;
+  padding: 0 20px;
+  background-color: $color-btn;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+header {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: $color-background;
 
   #header-img {
     max-width: 300px;
@@ -55,11 +77,11 @@ header {
   @include mQ(650px) {
     align-items: center;
 
-    .header__logo{
+    .header__logo {
       width: 60vw;
     }
 
-    nav{
+    nav {
       width: 35vw;
     }
 
@@ -70,6 +92,109 @@ header {
   }
 }
 
-.hero{
-  position: relative;
+.hero {
+  margin-top: 120px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include mQ(650px) {
+    margin-top: 50px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+  input {
+    display: block;
+    padding: 5px;
+    font-family: inherit;
+    width: 300px;
+  }
+  .btn {
+    margin: 15px auto;
+    max-width: 175px;
+  }
+}
+
+.features {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+  }
+  &__icon {
+    width: 20vw;
+    text-align: center;
+  }
+  &__info {
+    width: 80vw;
+  }
+  i {
+    color: $color-icons;
+  }
+}
+
+#how-it-works {
+  margin-top: 50px;
+
+  #video {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.pricing {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include mQ(800px) {
+    flex-direction: row;
+
+    &__card {
+      width: calc((100% - 6%) / 3);
+      margin: 2%;
+    }
+  }
+
+  &__card {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  &__name {
+    background-color: $color-price-card;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 0;
+  }
+  &__price {
+    padding: 1rem 0;
+  }
+  &__content {
+    margin: 15px 0;
+    p {
+      padding: 5px 0;
+    }
+  }
+  .pricing-btn {
+    font-weight: normal;
+    padding: 0 20px;
+    margin: 15px 0;
+    height: 40px;
+  }
 }
