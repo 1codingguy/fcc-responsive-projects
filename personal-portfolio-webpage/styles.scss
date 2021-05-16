@@ -1,0 +1,110 @@
+$color-navbar: #be3144;
+$color-text: #f0f0f0;
+$color-text-italic: #92313f;
+$color-hero: #212123;
+$color-projects: #45567d;
+$color-project-tile: #303841;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: $color-navbar;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+  }
+
+  &__link {
+    color: $color-text;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+  }
+}
+
+.hero {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: $color-hero;
+  text-align: center;
+  h1 {
+    font-size: 55px;
+    color: $color-text;
+  }
+  h3 {
+    font-size: 28px;
+    color: $color-text-italic;
+    font-style: italic;
+    font-weight: 200;
+  }
+}
+
+.projects {
+  background-color: $color-projects;
+  padding: 92.8px 18.56px;
+
+  h2 {
+    color: $color-text;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 2px solid white;
+    text-align: center;
+    max-width: 640px;
+  }
+
+  .projects-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .project-tile {
+    background-color: $color-project-tile;
+
+    &:hover {
+      .code {
+        color: orangered;
+      }
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    // height: 100%;
+  }
+  .project-title {
+    color: $color-text;
+    font-size: 18px;
+    text-align: center;
+    padding: 18.5px 4.5px;
+
+    .code {
+      color: $color-project-tile;
+      transition: color 0.3s ease-out;
+    }
+  }
+}
