@@ -2,6 +2,7 @@ $color-background: #eee;
 $color-btn: #f1c40f;
 $color-icons: darkorange;
 $color-price-card: #ddd;
+$color-copyright: #444;
 
 @mixin mQ($pixel) {
   @media screen and (min-width: $pixel) {
@@ -196,5 +197,29 @@ header {
     padding: 0 20px;
     margin: 15px 0;
     height: 40px;
+  }
+}
+
+.footer{
+  background-color: $color-price-card;
+  margin-top: 30px;
+  padding: 20px;
+
+  &__links{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  &__link{
+    padding: 0 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  p{
+    color: $color-copyright;
+    font-size: 0.9rem;
+    text-align: right;
+    margin-top: 5px;
+    padding-right: 10px;
   }
 }

@@ -248,4 +248,34 @@ header nav ul a {
   margin: 15px 0;
   height: 40px;
 }
+
+.footer {
+  background-color: #ddd;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+}
+
+.footer__link {
+  padding: 0 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer p {
+  color: #444;
+  font-size: 0.9rem;
+  text-align: right;
+  margin-top: 5px;
+  padding-right: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
