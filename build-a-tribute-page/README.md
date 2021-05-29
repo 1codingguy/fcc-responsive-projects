@@ -28,7 +28,7 @@ This is a solution to the [Build a tribute page on freeCodeCamp](https://www.fre
 
 ### Links
 
-- [Solution](https://github.com/1codingguy/fcc-responsive-projects/blob/main/build-a-tribute-page/index.html)
+- [Solution](https://github.com/1codingguy/fcc-responsive-projects/blob/main/build-a-tribute-page/)
 - [Live Site](https://1codingguy.github.io/fcc-responsive-projects/build-a-tribute-page/)
 
 ## My process
@@ -40,7 +40,7 @@ This is a solution to the [Build a tribute page on freeCodeCamp](https://www.fre
 
 ### Things I learned
 
-1. `<strong>` tag was used for the year in each bullet point. But since the year carries no "importance" semantic meaning, a `<span>` tag with a class should be used, the font-boldness can then be adjusted via CSS. (more on proper use of `strong` element: [read here](https://html.com/tags/strong/))
+1. `<strong>` tag was used for the year in each bullet point. But since the year carries no "importance" in semantic meaning, a `<span>` tag with a class should be used, the font-boldness can then be adjusted via CSS. ([Click here](https://html.com/tags/strong/) for more on proper use of `strong` element )
 2. Learnt about [BEM naming convention](http://getbem.com/naming/). Tried to impliement in this project. But since freeCodeCamp specify names of classes for some containers, couldn't completely follow the convention.
 
 ## Author
