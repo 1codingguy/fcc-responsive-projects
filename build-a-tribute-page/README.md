@@ -11,7 +11,7 @@ This is a solution to the [Build a tribute page on freeCodeCamp](https://www.fre
 - [My process](#my-process)
 
   - [Technologies used](#technologies-used)
-  - [Things I learned](#things-i-learned)
+  - [Things I learnt](#things-i-learnt)
 
 - [Author](#author)
 
@@ -38,7 +38,7 @@ This is a solution to the [Build a tribute page on freeCodeCamp](https://www.fre
 - HTML5
 - SCSS
 
-### Things I learned
+### Things I learnt
 
 1. `<strong>` tag was used for the year in each bullet point. But since the year carries no "importance" in semantic meaning, a `<span>` tag with a class should be used, the font-boldness can then be adjusted via CSS. ([Click here](https://html.com/tags/strong/) for more on proper use of `strong` element )
 2. Learnt about [BEM naming convention](http://getbem.com/naming/). Tried to impliement in this project. But since freeCodeCamp specify names of classes for some containers, couldn't completely follow the convention.
