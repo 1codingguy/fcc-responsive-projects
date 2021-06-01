@@ -11,7 +11,7 @@ This is a solution to the [Build a Survey Form](https://www.freecodecamp.org/lea
 - [My process](#my-process)
 
   - [Technologies used](#technologies-used)
-  - [Things I learned](#things-i-learned)
+  - [Things I learnt](#things-i-learnt)
 
 - [Author](#author)
 
@@ -38,7 +38,7 @@ This is a solution to the [Build a Survey Form](https://www.freecodecamp.org/lea
 - HTML 5
 - SCSS
 
-### Things I learned
+### Things I learnt
 
 1. `input`, `select`, `textarea` & `button` do not inherit CSS styles by default.
 2. `<input>` can be nested inside `<label>`. No `id` is needed to link up both of them.
