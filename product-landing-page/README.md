@@ -24,7 +24,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 
 ### Screenshot
 
-![sceenshot](./fcc-documentation-screenshot.png)
+![screenshot](./fcc-product-landing-page.png)
 
 ### Links
 
