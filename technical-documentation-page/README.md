@@ -28,8 +28,8 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 
 ### Links
 
-- [Solution](https://github.com/1codingguy/fcc-responsive-projects/tree/main/build-a-survey-form)
-- [Live Site](https://1codingguy.github.io/fcc-responsive-projects/build-a-survey-form/)
+- [Solution](https://github.com/1codingguy/fcc-responsive-projects/tree/main/technical-documentation-page)
+- [Live Site](https://1codingguy.github.io/fcc-responsive-projects/technical-documentation-page/)
 
 ## My process
 
