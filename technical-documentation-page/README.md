@@ -1,6 +1,6 @@
 # Technical documentation page - freeCodeCamp
 
-This is a solution to the [Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) from FreeCodeCamp.
+This is a solution to the [Build a Technical Documentation Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) from freeCodeCamp.
 
 ## Table of contents
 
