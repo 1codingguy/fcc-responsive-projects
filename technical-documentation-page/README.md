@@ -11,7 +11,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 - [My process](#my-process)
 
   - [Technologies used](#technologies-used)
-  - [Things I learned](#things-i-learned)
+  - [Things I learnt](#things-i-learnt)
 
 - [Author](#author)
 
@@ -38,7 +38,7 @@ This is a solution to the [Build a Technical Documentation Page](https://www.fre
 - HTML 5
 - SCSS
 
-### Things I learned
+### Things I learnt
 
 #### The difference between `overflow-y: auto` and `overflow-y: scroll`:
 
