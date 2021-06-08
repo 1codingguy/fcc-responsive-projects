@@ -11,7 +11,7 @@ This is a solution to the [Build a Product Landing Page](https://www.freecodecam
 - [My process](#my-process)
 
   - [Technologies used](#technologies-used)
-  - [Things I learned](#things-i-learned)
+  - [Things I learnt](#things-i-learnt)
 
 - [Author](#author)
 
@@ -38,7 +38,7 @@ This is a solution to the [Build a Product Landing Page](https://www.freecodecam
 - HTML 5
 - SCSS
 
-### Things I learned
+### Things I learnt
 
 1. Because `position: fixed` has taken navbar out of normal flow, I need to add a `margin-top: 50px` to shift the hero element .downward
 2. `<button>` vs `<input type="submit">`
