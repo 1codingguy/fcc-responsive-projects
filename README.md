@@ -41,4 +41,3 @@ Below are clones of the five [responsive web design projects](https://www.freeco
 - [GitHub](https://github.com/1codingguy)
 - [Blog](https://blog.coding-guy.com/)
 - [Twitter](https://twitter.com/1codingguy)
-- [LinkedIn](https://www.linkedin.com/in/1codingguy/)
