@@ -58,4 +58,3 @@ This is a solution to the [Build a Personal Portfolio Webpage](https://www.freec
 - [GitHub](https://github.com/1codingguy)
 - [Blog](https://blog.coding-guy.com/)
 - [Twitter](https://twitter.com/1codingguy)
-- [LinkedIn](https://www.linkedin.com/in/1codingguy/)
