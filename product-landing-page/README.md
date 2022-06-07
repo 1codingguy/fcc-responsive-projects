@@ -58,4 +58,3 @@ This is a solution to the [Build a Product Landing Page](https://www.freecodecam
 - [GitHub](https://github.com/1codingguy)
 - [Blog](https://blog.coding-guy.com/)
 - [Twitter](https://twitter.com/1codingguy)
-- [LinkedIn](https://www.linkedin.com/in/1codingguy/)
